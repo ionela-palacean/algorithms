@@ -18,7 +18,7 @@ public class RetirementCalculator {
 
        int remainingyears= retirementAge-age;
 
-        System.out.println("You have"+ remainingyears+" years left until retirement");
+        System.out.println("You have  "+ remainingyears+" years left until retirement");
         System.out.println("It's"+currentDate.getYear()+" so you can retire in"+
                 (currentDate.getYear()+remainingyears) );
 
