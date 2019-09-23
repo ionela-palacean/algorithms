@@ -1,13 +1,20 @@
 package org.fasttrackit;
 
+import java.util.Scanner;
+
 public class CozaLozaWoza {
 
     public static void main(String[] args) {
 
-        for (int i = 1; i <= 110; i++) {
+        Scanner scanner = new Scanner(System.in);
+        System.out.println("What is the limit number? ");
+        int limitnr = scanner.nextInt();
+
+        for (int i = 1; i <= limitnr; i++) {
 
             if (i % 3 == 0 && i % 5 == 0) {
-                System.out.print("CozaLoza");
+                System.out.print("CozaLoza ");
+
             } else if (i % 3 == 0) {
 
                 System.out.print("Coza ");
@@ -24,6 +31,5 @@ public class CozaLozaWoza {
             }
         }
     }
-
 
 }
